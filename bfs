@@ -4,7 +4,7 @@
  * the standard input according to the problem statement.
  **/
 
-function breadthFirstSearch(int $origin,int $destination) :?SplDoublyLinkedList {
+function breadthFirstSearch(int $origin,int $destination): ?SplDoublyLinkedList {
     
     global $graph;
     $visited = [];
